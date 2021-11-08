@@ -12,3 +12,7 @@ Download files required for yolov4
 For yolo and bounding box association, code has been borrowed from : 
 https://github.com/Jeremy26/visual_fusion_course/blob/main/Visual_Fusion_Late.ipynb
 
+
+
+for ssim_im_thres = 0.8 and ssim_bb_thres = 0.5, 96 unique were obtained
+
