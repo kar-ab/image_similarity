@@ -1,6 +1,7 @@
 # image_similarity
 Removes Similar images from dataset
 
+pip3 install -r requirements.txt
 
 Download files required for yolov4
 
