@@ -5,8 +5,9 @@ pip3 install -r requirements.txt
 
 Download files required for yolov4
 
-! gdown --id 1GJwGiR7rizY_19c_czuLN8p31BwkhWY5  
-! gdown --id 15P4cYyZ2Sd876HKAEWSmeRdFl_j-0upi 
+! gdown --id 1GJwGiR7rizY_19c_czuLN8p31BwkhWY5  tiny weight
+! gdown --id 15P4cYyZ2Sd876HKAEWSmeRdFl_j-0upi  weights
+
 ! wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/data/coco.names
 
 
