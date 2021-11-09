@@ -8,6 +8,8 @@ pip3 install -r requirements.txt
 #### 2. Download files required for yolov4
 
 ! gdown --id 15P4cYyZ2Sd876HKAEWSmeRdFl_j-0upi 
+
+
 ! wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/data/coco.names
 
 ### For Usage, refer demo: 
