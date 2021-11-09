@@ -10,7 +10,7 @@ pip3 install -r requirements.txt
 ! gdown --id 15P4cYyZ2Sd876HKAEWSmeRdFl_j-0upi 
 ! wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/data/coco.names
 
-For Demo, please use file: 
+### For Usage, refer demo: 
 
 Note:
 
