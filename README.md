@@ -27,4 +27,4 @@ for more fine tuned results, set higher values of thresholds.
 
 ## Acknowledgement :pray:
 For yolo and bounding box association, code has been borrowed from : 
-https://github.com/Jeremy26/visual_fusion_course/blob/main/Visual_Fusion_Late.ipynb
+[repository](https://github.com/Jeremy26/visual_fusion_course/blob/main/Visual_Fusion_Late.ipynb)
