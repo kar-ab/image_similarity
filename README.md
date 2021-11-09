@@ -21,7 +21,7 @@ Clases file for Yolov4
 
 Note:
 
-for ssim_im_thres = 0.8 and ssim_bb_thres = 0.5, 96 unique iamges were obtained
+for ssim_im_thres = 0.8 and ssim_bb_thres = 0.5, 96 unique images were obtained
 
 for more fine tuned results, set higher values of thresholds. 
 
