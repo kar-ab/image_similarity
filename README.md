@@ -1,13 +1,16 @@
 # image_similarity
-Remove Similar images from dataset
 
+## Remove Similar images from dataset
+
+### 1. Install Requirements
 pip3 install -r requirements.txt
 
-Download files required for yolov4
+#### 2. Download files required for yolov4
 
 ! gdown --id 15P4cYyZ2Sd876HKAEWSmeRdFl_j-0upi 
 ! wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/data/coco.names
 
+For Demo, please use file: 
 
 Note:
 
