@@ -1,0 +1,8 @@
+gdown==3.6.4
+yolov4==2.0.2
+scikit-image==0.16.2
+matplotlib==3.2.2
+opencv-python==4.1.2.30
+tensorflow==2.6.0
+numpy==1.19.5
+scipy==1.4.1
