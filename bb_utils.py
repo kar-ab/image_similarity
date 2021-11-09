@@ -1,6 +1,7 @@
 from skimage.metrics import structural_similarity as compare_ssim
+from scipy.optimize import linear_sum_assignment
 import numpy as np
-
+import cv2
 
 class bb_utils():
 
@@ -31,7 +32,7 @@ class bb_utils():
       # Go through boxes and store the IOU value for each box
       for i, box_1 in enumerate(bbox_1):
           for j, box_2 in enumerate(bbox_2):
-              iou_matrix[i][j] = bb_intersection_over_union(box_1, box_2)
+              iou_matrix[i][j] = self.bb_intersection_over_union(box_1, box_2)
 
       # Call for the Hungarian Algorithm
       h_row, h_col = linear_sum_assignment(-iou_matrix)
@@ -70,8 +71,8 @@ class bb_utils():
 
     for idx in range(0, matched_bboxes.shape[0]):
 
-      bb_im_1 = get_bb_img(img1, pred_bb_1[matched_bboxes[idx, 0]].tolist())
-      bb_im_2 = get_bb_img(img2, pred_bb_2[matched_bboxes[idx, 1]].tolist())
+      bb_im_1 = self.get_bb_img(img1, pred_bb_1[matched_bboxes[idx, 0]].tolist())
+      bb_im_2 = self.get_bb_img(img2, pred_bb_2[matched_bboxes[idx, 1]].tolist())
 
       # for ssim both the bbboxes should of same dimension
       # resizing second bbox to first one
@@ -83,8 +84,9 @@ class bb_utils():
                                    multichannel=True, full=True)
 
       # the ssim score shoud exceed the threshold score to be similar
-      if bb_score <= ssim_bb:
+      if bb_score <= ssim_bb_thres:
         # print('The BBs are not similar')
         return False
 
     return True
+
