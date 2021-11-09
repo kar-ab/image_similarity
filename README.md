@@ -17,7 +17,7 @@ Clases file for Yolov4
 
 ! wget https://raw.githubusercontent.com/AlexeyAB/darknet/master/data/coco.names
 
-### For Usage, refer demo: 
+### For Usage, refer [Colab_file](demo.ipynb)
 
 Note:
 
